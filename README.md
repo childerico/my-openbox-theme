@@ -9,10 +9,17 @@ which is distributed under terms of GPL license.
 
 ## Installation ##
 
-On most distributions, you just need to copy `my-openbox-theme` directory (contained
-		in this repository) to `/usr/share/themes/`.
+On most distributions, you just need to copy theme's directory
+to `/usr/share/themes/`, after cloning this repository:
+
+	git clone https://github.com/childerico/my-openbox-theme.git
+	sudo cp -r my-openbox-theme/my-openbox-theme /usr/share/themes/
 
 Then you should set this theme as your OpenBox theme (e.g. using `obconf`).
+
+**Optionally**, you could save the theme with a more meaningful name:
+	
+	sudo cp -r my-openbox-theme/my-openbox-theme /usr/share/themes/NEW_NAME
 
 
 ## Screenshots ##
