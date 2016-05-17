@@ -1,19 +1,18 @@
 !!General
-!!palette: fcaf3e, f57900, ce5c00
 
-window.handle.width: 4
+window.handle.width: 0
 window.client.padding.width: 0
 border.Width: 1
 padding.width: 3
 menu.overlap: 2
-border.color: #e7e8eb
+border.color: #333333
 !!window.frameColor: #eeeeec
 !!window.*.client.color: #eeeeec
 *.text.justify: center
 
 !!Fonts
 
-window.active.label.text.font: sans:pixelsize=10:shadow=n:shadowoffset=1:shadowtint=30:bold
+window.active.label.text.font: sans:pixelsize=10:shadow=y:shadowoffset=1:shadowtint=30:bold
 window.inactive.label.text.font: sans:pixelsize=10:shadow=n:shadowoffset=1:shadowtint=0:bold
 menu.items.font: sans:pixelsize=10
 menu.title.text.font: sans:pixelsize=10:shadow=y:shadowoffset=1:shadowtint=30:bold
@@ -24,7 +23,7 @@ menu.title.bg: flat border vertical gradient
 menu.title.bg.color: #ce5c00
 menu.title.bg.colorTo: #f57900
 menu.title.bg.border.color: #fcaf3e
-menu.title.text.color: #ffffff
+menu.title.text.color: #999999
 
 menu.items.bg: flat border solid
 menu.items.bg.color: #f5f5f5
@@ -42,17 +41,17 @@ menu.items.active.bg.border.color: #416c98
 !!Active
 
 window.active.title.bg: Flat gradient vertical
-window.active.title.bg.color: #e7e8eb
-window.active.title.bg.colorTo: #e7e8eb
+window.active.title.bg.color: #333333
+window.active.title.bg.colorTo: #333333
 window.active.title.bg.border.color: #e7e8eb
 
 window.active.label.bg: parentrelative
-window.active.label.text.color: #444444
+window.active.label.text.color: #eeeeee
 
 window.active.button.*.bg: parentrelative
-window.active.button.*.image.color:  #444444
+window.active.button.*.image.color:  #eeeeee
 window.active.button.hover.bg.color: #729fcf
-window.active.button.hover.image.color: #ffffff
+window.active.button.hover.image.color: #ff0000
 window.active.button.pressed.bg.color: #a7cef2
 window.active.button.disabled.image.color: #dddddd
 
